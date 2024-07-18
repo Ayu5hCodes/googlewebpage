@@ -1,0 +1,195 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Non-existant Sans, Arial, sans-serif;
+    
+    width: 100%;
+}
+
+.mainbox
+{
+    padding-top: 56px;
+  width: 100%;
+  height: 92.3vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+    
+       
+}
+.navbar
+{
+    width: 100%;
+    height: 4rem;
+    position: absolute;
+    top:0;
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.navicon a
+{
+    font-size: small;
+    text-decoration: none;
+    font-weight: 500;
+}
+.navicon
+{
+   width: 13.18rem;
+   height: 3rem;
+   display: flex;
+   align-items: center;
+}
+.icon2
+{
+    padding-left: 0.5rem;
+}
+
+.navimg
+{
+    width: 3rem;
+    height: 3rem;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#flask
+{
+    margin-left: 1rem;
+}
+#bar
+{
+    margin-left: 0rem;
+}
+.navicon  img
+{
+    
+    width: 1.8rem;
+    height: 1.8rem;
+    
+}
+
+.navicon a:hover
+{
+    text-decoration: underline;
+    
+}
+ .navimg:hover
+{
+    background-color: #62426b;
+    border-radius: 50%;
+    
+}
+
+.links
+{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.namlog
+{
+    text-align: center;
+    font-size:80px;
+    font-weight: 540;
+    margin: 5rem 0 0 0;
+}
+.inputWrap input
+{
+   background: transparent;
+   border: transparent;
+   height: 100%;
+   width: 100%;
+    outline: none;
+}
+.inputWrap
+{
+    width: 561px;
+    height: 44px;
+    background: transparent;
+    display: flex;
+    background-color: rgb(255 255 255 / 90%);
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 70px;
+    justify-content: space-between;
+}
+.inputWrap i{
+    font-size:medium;
+    padding: 0 0.8rem 0 0.8rem;
+    color: rgba(0, 0, 0, 0.541);
+}
+.inputWrap span
+{
+    font-size:large;
+    padding: 0 2px 0 2px;
+    font-size: 1.2rem;
+    color: rgba(66, 21, 180, 0.541);
+}
+.searchi
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.inputWrap:hover
+{
+    cursor: pointer;
+}
+.resize::placeholder
+{
+    font-family: sans-serif;
+}
+.mostvi
+{
+    width: 577px;
+    height: 236px;
+    padding-top: 2rem;
+   display: flex;
+   flex-wrap: wrap;
+
+}
+.card
+{
+    width: 112px;
+    height: 112px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardlo
+{
+    height:53.6px;
+    width: 53.6px;
+    border-radius: 50%;
+    background-color:#ffffff;
+    margin-top: 0.7rem;
+}
+.cardlo img
+{
+    width: 2.1rem;
+    height: 2.1rem;
+    padding: 0.5rem;
+    margin-left: 0.1rem;
+}
+.card:hover
+{
+    background-color: #9775a0;
+}
+
+.card i
+{
+    height: 1.5rem;
+    width: 1.6rem;
+    color: black;
+    margin-top: 1.5rem;
+    margin-left: 0.99rem;
+}
